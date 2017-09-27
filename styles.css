@@ -1,4 +1,13 @@
 body {
-	font-family: Helvetica;
-	font-size: 60px;
+	font-family: Maison Neue;
+	font-size: 14px; 
+	color: #00f;
+}
+
+.content {
+	text-align: center;
+	margin: 0 auto;
+	top: calc(40vh);
+	display: block;
+	position: relative;
 }
