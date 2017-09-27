@@ -1,0 +1,29 @@
+{
+  "manifest_version": 2,
+  "description": "new tab",
+  "name": "TAB.SIMPLE",
+  "version": "0.1",
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "http://*/*",
+    "https://*/*"
+  ],
+  "browser_action": {
+	  "default_icon": "icon.png"
+  },
+  "web_accessible_resources": [
+    "*.png"
+  ],
+  "chrome_url_overrides": {
+    "newtab": "new-tab.html"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": ["jquery-3.2.1.min.js", "content.js"]
+    }
+  ]
+}
