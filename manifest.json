@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "description": "new tab",
-  "name": "TAB.SIMPLE",
+  "name": "new tab",
   "version": "0.1",
   "permissions": [
     "activeTab",
